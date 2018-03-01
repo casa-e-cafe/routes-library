@@ -1,0 +1,25 @@
+{
+    "name": "casaecafe/routes-library",
+    "description": "CasaeCafe.com Silex routes library",
+    "type": "library",
+    "require": {
+        "pimple/pimple": "~v3",
+        "silex/silex": "~2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.6"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rafael Pereira Girolineto",
+            "email": "rafapg.85@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CasaCafe\\" : "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
